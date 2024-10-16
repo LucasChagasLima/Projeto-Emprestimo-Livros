@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjetoEmprestimoLivros.Models;
 
 namespace ProjetoEmprestimoLivros.Data
 {
@@ -11,5 +12,7 @@ namespace ProjetoEmprestimoLivros.Data
 
         }
 
+        public DbSet<LivrosModel> Livros { get; set; }
+ 
     }
 }
