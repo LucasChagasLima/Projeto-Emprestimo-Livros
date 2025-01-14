@@ -17,5 +17,12 @@ namespace ProjetoEmprestimoLivros.Controllers
 
             return View(livros);
         }
+
+        [HttpGet]
+        public ActionResult Cadastrar()
+        {
+            return View();
+        }
+
     }
 }
